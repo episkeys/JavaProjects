@@ -10,7 +10,7 @@ public class isPalindrome {
 
         int reverse = 0;
         int original = number;
-        //1221
+        
         while (number != 0) {
             reverse = reverse * 10 + number % 10;
             number /= 10;
